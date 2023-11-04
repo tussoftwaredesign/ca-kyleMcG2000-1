@@ -5,10 +5,13 @@ Student number A00299484
 
 In this Report I will discuss my VR application project that I made using Unity and included the following.
 
-The project setup.
-LocoMotion.
-Grabbable Objects.
-Sockets.
+The project setup
+
+LocoMotion
+
+Grabbable Objects
+
+Sockets
 
 I will discuss the aim of the game and the ups and downs I had making it. There will also be screenshots of the game itself to back up the use of the four features previously listed above.
 
