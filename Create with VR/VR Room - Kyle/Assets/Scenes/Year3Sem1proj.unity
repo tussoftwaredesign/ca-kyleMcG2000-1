@@ -2849,7 +2849,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 32
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -2882,7 +2882,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 1
+  m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 1
@@ -3574,7 +3574,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -5821,7 +5821,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -12255,12 +12255,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1557628021}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 32
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -12293,7 +12293,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 1
+  m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 1
@@ -18781,42 +18781,42 @@ PrefabInstance:
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.92
+      value: 14.166
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.29
+      value: -4.239
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.8241692
+      value: -3.521
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7064338
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.030843573
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.030843573
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.7064338
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
@@ -18826,7 +18826,7 @@ PrefabInstance:
     - target: {fileID: 551026820670773144, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 931808985201970466, guid: 54813c4b871458f4c9d448cbff51f890,
         type: 3}
@@ -22298,7 +22298,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -22557,7 +22557,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -26126,7 +26126,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -26743,7 +26743,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 17
+    m_Bits: 16
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
