@@ -52,6 +52,7 @@ The final portion of this report is the sockets. The sockets are also a key comp
 
 <img width="668" alt="Screenshot 2023-11-04 185557" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/5b1bb1a0-c9f0-4d91-8537-488fd918134b">
 
+
 Reflection:
 
 I had a lot of fun making this project, there was good times and bad times with making it. The first issue that was a major problem was when I imported my first set of assets and they were all pink, I found out later that the Universal rendering pipeline (URP) was the main cause of this problem and once it was unequipped, I had zero trouble with the rest of my assets. The second issue I had and still have is with my XR rig phasing through all my objects instead of colliding with them, it’s something I’m still trying to resolve and hope to have resolved for the second game. Making this game has thought me a lot about VR and the process of making a 3D VR game in unity.  I have found this area to be a whole lot of fun to work with and wish to expand my knowledge and creativity within VR to hopefully make my second game even better than this one.
