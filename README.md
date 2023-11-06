@@ -15,7 +15,7 @@ In this Report I will discuss my VR application project that I made using Unity 
 
 I will discuss the aim of the game and the ups and downs I had making it. There will also be screenshots of the game itself to back up the use of the four features previously listed above.
 
-The Project Setup:
+##The Project Setup:
 
 The theme I went with for my game was an abandoned graveyard in a spooky forest. I chose this as Halloween was right around the corner and what better way to bring in than with a horrifying graveyard.
 
@@ -30,8 +30,27 @@ This is an overview of the entire world that I created. The trees were painted o
  
 In this second image it shows a closer view of the graveyard. The aim of the game is to find six pumpkins which I scattered throughout the map. You must then return each pumpkin back to the coffins where you first started the game, only then can you escape. Later I will show the pumpkin inside the coffin as part of the Sockets section.
 
-Locomotion:
+##Locomotion:
 
 To play the game, you need to be able to move and that’s what I added with the help of continuous movement. On my XR rig I attached two scripts called continuous move provider and continuous turn provider. These allow for a smooth flow when moving and turning.
 
 <img width="220" alt="Screenshot 2023-11-04 193807" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/b5ea1209-34c2-408d-abb6-389d13b56deb">
+
+##Grabbable objects:
+
+
+My game relies on grabbable objects to be able to complete it. The aim of the game like I previously mentioned is to pick up pumpkins and place them in the coffins. I had the most trouble with this feature, mainly on the pumpkins as when I first picked them up my player would start to float or when I dropped them my player would spin. Eventually I fixed it after messing around with the rigid body and the XR grab interactable script. On the previously mentioned script I also have an interaction layer mask called pumpkin just so the pumpkin only interacts with the socket on the coffin which I will discuss more in the next section. I also added throwable candy objects with a grab interactable to help the player a certain point in the game.
+
+<img width="215" alt="Screenshot 2023-11-06 100117" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/01ba7e2b-d375-4292-a039-ab2978989ef3">
+
+<img width="948" alt="Screenshot 2023-11-04 185507" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/059304fb-3a59-4367-a178-ed99d51ff2c0">
+
+<img width="304" alt="Screenshot 2023-11-06 100528" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/8acfc676-36f3-4304-aed6-53ae4bbf4258">
+
+##Sockets:
+
+The final portion of this report is the sockets. The sockets are also a key component of the game as they are also needed to help complete the game. The coffins have a socket point set on each of them that only interacts with the pumpkins. I also have a light source on the pumpkins that gives this cool feature that makes the pumpkins light up when they are inserted into the coffins, giving a feel that the pumpkins have come to life when placed. I didn’t have much trouble with the sockets as I had previously worked on something similar which made this feature possible.
+
+<img width="668" alt="Screenshot 2023-11-04 185557" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/5b1bb1a0-c9f0-4d91-8537-488fd918134b">
+
+
