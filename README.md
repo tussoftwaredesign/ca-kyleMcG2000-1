@@ -19,7 +19,8 @@ The Project Setup:
 
 The theme I went with for my game was an abandoned graveyard in a spooky forest. I chose this as Halloween was right around the corner and what better way to bring in than with a horrifying graveyard.
 
-<img width="488" alt="Screenshot 2023-11-04 185628" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/5d144265-84ae-44e9-9775-e058383fa155">
+
+<img width="488" alt="Screenshot 2023-11-04 185628" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/5fbd311c-5470-4f89-a36f-56839ba94e15">
 
  
 This is an overview of the entire world that I created. The trees were painted onto the world using a terrain (the checkered pattern floor) and paintbrush tool to make the forest with ease. At first, I had difficulty with this as it was my first time using this feature and I didn’t know what I was doing. Eventually I got the hang of it and set the spooky factor into play. The dark outline you see just past the trees is a hill game object painted completely black to give a feel of a dark sky. I also used a skybox to turn the sky a bit darker to match. The mud floor for the game consists of a green floor game object painted brown and it is also given a mesh collider to help stop the grabbable objects from falling through it. I’ll talk more about the grabbable objects when we get to that section.
