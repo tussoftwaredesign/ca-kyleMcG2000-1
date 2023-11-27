@@ -28,7 +28,7 @@ public class GateDestroy : MonoBehaviour
     {
         if (coffinAttach1.activeSelf && coffinAttach2.activeSelf && coffinAttach3.activeSelf && coffinAttach4.activeSelf && coffinAttach5.activeSelf && coffinAttach6.activeSelf)
         {
-            StartCoroutine(mainGateCoolDown(1f));
+            DeleteGate();
             Debug.Log("Attach active ");
         }
         else
@@ -37,9 +37,8 @@ public class GateDestroy : MonoBehaviour
         }
     }
 
-    IEnumerator mainGateCoolDown(float waitTime)
+    void DeleteGate()
     {
-        yield return new WaitForSeconds(waitTime);
 
         Gate.SetActive(false);
     }
