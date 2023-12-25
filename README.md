@@ -62,5 +62,64 @@ Reflection:
 
 I had a lot of fun making this project, there was good times and bad times with making it. The first issue that was a major problem was when I imported my first set of assets and they were all pink, I found out later that the Universal rendering pipeline (URP) was the main cause of this problem and once it was unequipped, I had zero trouble with the rest of my assets. The second issue I had and still have is with my XR rig phasing through all my objects instead of colliding with them, it’s something I’m still trying to resolve and hope to have resolved for the second game. Making this game has thought me a lot about VR and the process of making a 3D VR game in unity.  I have found this area to be a whole lot of fun to work with and wish to expand my knowledge and creativity within VR to hopefully make my second game even better than this one.
 
+In this Report I will talk about the second continuous assessment portion of my VR project. I had the option to start a new game or continue from the previous game, so I decided to expand on my previous game. In this continuation I Implemented the following.
+
+-	Audio 
+-	Action Events
+-	Direct and Ray interactors
+-	And User Interface
+
+Audio:
+To enhance the experience of the game for players I added audio to the map. I added the spooky audio to give a creepy feel to the map, I added a second audio source of wolves howling at random intervals throughout the game to try scare the player as well. To do this I created an empty game object and added an audio source component. I then sourced the audio I wished to use off Itch.io and added it to each component.
+
+<img width="223" alt="Screenshot 2023-12-25 134413" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/fc9572a9-446d-4036-9a80-3b021ed223cd">
+<img width="329" alt="Screenshot 2023-12-25 134350" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/9f7ec798-1e9b-4b89-af15-1813827837da">
+
+
+Action Events:
+I added a couple of different action events to the game. The first one is the opening of the doors to the house. I did this by adding a box collider and the XR simple interactable component. In the interactable events tab on the select entered option, I selected the door as the object to be disabled once the door handle is interacted with and once the player interacts with this object, the doors setActive state will be set to false. The second Action event I added was a TV remote that turns on the TV to play a video. On the screen of the tv I added the video player component and the play video script. I then sourced the video I wished to use from YouTube and converted it to a .mp4 file. I then added the video to the play video script as shown below. To turn on the tv you must use the remote. I added an XR grab interactable component to the remote. In the interactable events tab on the Activate option the first tab plays the remotes sound to say it’s been pressed, the second tab changes the light on the remote to show its been pressed and the final tab turns on the TV. The deactivated tab changes the remotes colour back to its original state. I feel these action events added fun elements and interesting elements to the game.
+
+<img width="205" alt="Screenshot 2023-12-25 140837" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/e9d78fe3-c922-4255-bf0e-f250d2cd77ed">
+<img width="182" alt="Screenshot 2023-12-25 140848" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/4828b0e6-4dbd-4ed5-b204-a016399a014f">
+<img width="198" alt="Screenshot 2023-12-25 141956" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/b3af4fc5-7761-4ab6-a512-2e1eb0234531">
+<img width="210" alt="Screenshot 2023-12-25 142540" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/a04486cb-6174-4939-9ec6-129f26fea700">
+<img width="205" alt="Screenshot 2023-12-25 142556" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/e40a7c8d-2b87-47ac-948b-296b09fdbba2">
+
+Direct and Ray Interactors:
+
+I made use of the rays by allowing them to only have optional use in the game. They are only used to interact with the buttons on the Interface canvas. You can select the rays by using the primary button on each controller as shown below.
+
+<img width="198" alt="Screenshot 2023-12-25 144614" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/f991588e-1966-4b35-b73c-77cad73c72da">
+
+User Interface:
+
+To give the players a feel for what they have to do in the game I added 2 canvas’ to the map telling the players what to do to play the game. I created these first by adding a child object to the canvas and added the textMeshPro – text component to the child object to add the text to the canvas. I did the same for the two canvas’ in the house and the reset background as well. To reset the game, I used the reset background canvas and a reset button attached to it. On the button component in the OnClick tab, once selected the scene will be reloaded. The cancel button will keep you in the same scene.
+
+<img width="206" alt="Screenshot 2023-12-25 145608" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/e729cf6e-939b-4feb-b35d-369ee2bd28ae">
+<img width="210" alt="Screenshot 2023-12-25 145620" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/638b8016-149f-4e94-a4e4-feacddb2588c">
+<img width="211" alt="Screenshot 2023-12-25 150228" src="https://github.com/tussoftwaredesign/ca-kyleMcG2000-1/assets/123557094/02e08b5f-bf44-4bbb-9c9f-394fd986cad5">
+
+Extra add-ons from the previous game:
+
+To complete the game, I added Keys around the interior of the house, I added multiple keys but only one of them works, once you set foot in the house you’ll find a riddle that will help find the location of escape. There’s also a ladder that the player will need to use in order to escape as well. The key works in a similar manner to opening the window as the player did with the door. The correct key collides with the window and destroys it. The player then brings the ladder and adds it to the socket in front of the window to complete the game.
+
+
+Conclusion:
+
+In conclusion I’m really happy with the way the game turned out, I fixed the previously mentioned issue with the gate not deactivating. To do this I simply had to deactivate the attach component on each coffin so that once each pumpkin is inserted into their correct coffins the attach point will active and the gate will then destroy. I also added to the eeriness of the game by turning of the directional light in the game to make it dark. I found this paired with the audio made the game complete. I also added a lamp that the player should always carry around with them to navigate the map. I felt this gave a bit more of a challenge to the game as this meant the player has to carry the lamp in one hand whilst only being able to carry back one pumpkin at a time to each coffin.
+
+I would definitely use the knowledge I’ve obtained from this module to further sharpen my VR skills and create more projects like this in the future.  I also want to work on colliders more as I feel I still need more improvement with them. I managed to fix some wall collisions but I also noticed that a majority of colliders still didn’t work like others. I’m looking forward to learning on how to fix this issue and make the game even better. Thanks for reading.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
